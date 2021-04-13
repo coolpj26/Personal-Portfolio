@@ -7,7 +7,8 @@ body {
 }
 
 h1 {
-  font-size: 13vw; /*100% = 1em = 16px. Use rem i.e. root em instead of em because
+  font-size: 9vw; /*vw is for % according to vewport responsive for mobile and pc*/
+                      /*100% = 1em = 16px. Use rem i.e. root em instead of em because
                         em & % is relative to parent measures i.e. body is 2em.*/
   margin: auto;
   font-family: "Sacramento", cursive;
@@ -16,7 +17,7 @@ h1 {
 
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
+  font-size: 3.5vw;
   color: #66bfbf;
   font-weight: normal;
   padding-bottom: 10px;
@@ -24,19 +25,8 @@ h2 {
 
 h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.75vw;
   color: #11999e;
-}
-
-a {
-  color: #11999e;
-  font-family: "Montserrat", sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #eaf6f6;
 }
 
 hr {
@@ -46,9 +36,23 @@ hr {
   margin: 80px auto;
 }
 
-.intro {
-  width: 30%;
-  margin: auto;
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 13%;
+  top: 40px;
+  width: 12%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 12%;
+  width: 12%;
 }
 
 .mountain{
@@ -56,41 +60,27 @@ hr {
   width: 43%;
 }
 
-.contact-message {
-  width: 40%;
-  margin: 40px auto 60px;
-}
-
-.copyright {
-  color: #eaf6f6;
-  font-size: 0.75rem;
-  padding: 20px 0;
-}
-
-.top-container {
-  background-color: #e4f9f5;
-  position: relative;
-  padding-top: 100px;
-}
-
 .middle-container {
   margin: 100px 0;
 }
 
-.bottom-container {
-  background-color: #66bfbf;
-  padding: 50px 0 20px;
+.PJ{
+  width: 100%;
+  max-width: max-content;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 200px;
-  top: 40px;
+.intro {
+  width: 30%;
+  margin: auto;
+  font-size: 1.3vw;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 200px;
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  size: 25%;
+  font-size: 1.25vw;
 }
 
 .DD-img {
@@ -105,11 +95,32 @@ hr {
   margin-left: 30px;
 }
 
-.skill-row {
-  width: 50%;
-  margin: 100px auto;
-  text-align: left;
-  size: 25%;
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+  font-size: 1.25vw;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
 
 .btn {
