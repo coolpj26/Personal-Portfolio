@@ -138,7 +138,7 @@ a:hover {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-size: 2vw;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 20px;
   text-decoration: none;
 }
 
@@ -149,5 +149,6 @@ a:hover {
   background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  padding: 10px 20px;
   text-decoration: none;
 }
