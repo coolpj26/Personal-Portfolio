@@ -109,17 +109,19 @@ hr {
 a {
   color: #11999e;
   font-family: "Montserrat", sans-serif;
-  margin: 10px 20px;
+  margin: 10px 30px;
   text-decoration: none;
+  font-size: 1.7vw;
 }
 
 a:hover {
-  color: #eaf6f6;
+  background-color: #eaf6f6;
+  padding: 10px;
 }
 
 .copyright {
   color: #eaf6f6;
-  font-size: 0.75rem;
+  font-size: 1.3vw;
   padding: 20px 0;
 }
 
@@ -135,7 +137,7 @@ a:hover {
   border-radius: 8px;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 2vw;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
