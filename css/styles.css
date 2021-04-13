@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  font-size: 7vw; /*100% = 1em = 16px. Use rem i.e. root em instead of em because
+  font-size: 13vw; /*100% = 1em = 16px. Use rem i.e. root em instead of em because
                         em & % is relative to parent measures i.e. body is 2em.*/
   margin: auto;
   font-family: "Sacramento", cursive;
