@@ -17,7 +17,7 @@ h1 {
 
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 3.5vw;
+  font-size: 4vw;
   color: #66bfbf;
   font-weight: normal;
   padding-bottom: 0.8%;
@@ -25,7 +25,7 @@ h2 {
 
 h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.75vw;
+  font-size: 2.25vw;
   color: #11999e;
 }
 
@@ -71,17 +71,21 @@ hr {
 }
 
 .intro {
-  width: 30%;
+  width: 40%;
   margin: auto;
-  font-size: 1.3vw;
+  font-size: 1.85vw;
+}
+
+.a{
+  overflow: auto;
 }
 
 .skill-row {
-  width: 50%;
+  width: 60%;
   margin: 8% auto;
   text-align: left;
   size: 25%;
-  font-size: 1.25vw;
+  font-size: 1.75vw;
 }
 
 .DD-img {
@@ -98,13 +102,13 @@ hr {
 
 .bottom-container {
   background-color: #66bfbf;
-  padding: 12.3% 0 4.92%;
+  padding: 8% 0 4.92%;
 }
 
 .contact-message {
   width: 40%;
   margin: 40px auto 60px;
-  font-size: 1.25vw;
+  font-size: 1.75vw;
 }
 
 a {
@@ -113,7 +117,7 @@ a {
   margin: 0.8% 4%;
   padding: 1%;
   text-decoration: none;
-  font-size: 1.7vw;
+  font-size: 2vw;
 }
 
 a:hover {
@@ -124,7 +128,7 @@ a:hover {
 
 .copyright {
   color: #eaf6f6;
-  font-size: 1.3vw;
+  font-size: 1.5vw;
   padding: 20px 0;
 }
 
