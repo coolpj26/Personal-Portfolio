@@ -128,11 +128,9 @@ a:hover {
 }
 
 .copyright {
-  color: #66bfbf;
+  color: #eaf6f6;
   font-size: 1.5vw;
-  padding: auto;
-  margin: 5% 0 0;
-  background-color: #eaf6f6;
+  padding: 5% 0 0;
 }
 
 .btn {
