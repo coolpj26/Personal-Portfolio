@@ -1,3 +1,8 @@
+:root{
+  --heading-color: #66bfbf;  /*h1, h2 color.*/
+  --content-fs: 1.8vw;        /*Content Font Size*/
+}
+
 body {
   color: #40514e;
   text-align: center;
@@ -12,13 +17,13 @@ h1 {
                         em & % is relative to parent measures i.e. body is 2em.*/
   margin: auto;
   font-family: "Sacramento", cursive;
-  color: #66bfbf;
+  color: var(--heading-color);
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 4vw;
-  color: #66bfbf;
+  color: var(--heading-color);
   font-weight: normal;
   padding-bottom: 0.8%;
 }
@@ -39,7 +44,7 @@ hr {
 .top-container {
   background-color: #e4f9f5;
   position: relative;
-  padding-top: 100px;
+  padding-top: 6vw;
 }
 
 .top-cloud {
@@ -55,9 +60,9 @@ hr {
   width: 12%;
 }
 
-.mountain{
-  max-width: max-content;
-  width: 43%;
+.programmer{
+  width: 25%;
+  max-width: 100%;
 }
 
 .middle-container {
@@ -66,14 +71,14 @@ hr {
 }
 
 .PJ{
-  width: 50%;
-  max-width: max-content;
+  width: 20%;
+  max-width: 100%;
 }
 
 .intro {
   width: 40%;
   margin: auto;
-  font-size: 1.85vw;
+  font-size: var(--content-fs);
 }
 
 .a{
@@ -85,7 +90,7 @@ hr {
   margin: 8% auto;
   text-align: left;
   size: 25%;
-  font-size: 1.75vw;
+  font-size: var(--content-fs);
 }
 
 .DD-img {
@@ -108,7 +113,7 @@ hr {
 .contact-message {
   width: 40%;
   margin: 3% auto 6%;
-  font-size: 1.75vw;
+  font-size: var(--content-fs);
 }
 
 a {
