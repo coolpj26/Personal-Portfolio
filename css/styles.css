@@ -1,5 +1,5 @@
 :root{
-  --heading-color: #66bfbf;           /*h1, h2 color.*/
+  --heading-color: #66bfbf;             /*h1, h2 color.*/
   --content-fs: 1.8vw;                  /*Content Font Size*/
   --basic-ff: "Montserrat", sans-serif; /*h2, h3 & other Font Family*/
   --icon-fs: 4vw;                       /*icon size*/
@@ -47,10 +47,14 @@ hr {
 .top-container {
   background-color: #e4f9f5;
   position: relative;
-  padding-top: 6vw;
+  padding-top: 4vw;
 }
 
-.top-cloud {
+#first-h2{
+  margin-top: 0px;
+}
+
+/* .top-cloud {
   position: absolute;
   right: 13%;
   top: 40px;
@@ -61,7 +65,7 @@ hr {
   position: absolute;
   left: 12%;
   width: 12%;
-}
+} */
 
 .programmer{
   width: 25%;
@@ -70,7 +74,7 @@ hr {
 
 .middle-container {
   width: 100%;
-  margin: 10% 0;
+  margin: 7% 0 10%;
 }
 
 .PJ{
@@ -115,7 +119,7 @@ hr {
 
 .contact-message {
   width: 40%;
-  margin: 3% auto 6%;
+  margin: 3% auto 3%;
   font-size: var(--content-fs);
 }
 
