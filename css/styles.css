@@ -1,5 +1,5 @@
 :root{
-  --heading-color: #66bfbf;             /*h1, h2 color.*/
+  --heading-color: #66bfbf;           /*h1, h2 color.*/
   --content-fs: 1.8vw;                  /*Content Font Size*/
   --basic-ff: "Montserrat", sans-serif; /*h2, h3 & other Font Family*/
   --icon-fs: 4vw;                       /*icon size*/
@@ -38,7 +38,7 @@ h3 {
 }
 
 hr {
-  border: dotted #eaf6f6 6px;
+  border: dotted #66bfbfab 6px;
   border-bottom: none;
   width: 8%;
   margin: 6% auto;
