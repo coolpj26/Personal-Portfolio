@@ -124,25 +124,13 @@ hr {
 }
 
 a {
-  color: #11999e;
-  font-family: var(--basic-ff);
-  margin: 0.8% 4%;
-  padding: 1%;
-  text-decoration: none;
-  font-size: 2vw;
-  /* background-color: #eaf6f6; */
-  border-radius: 8%;
-}
-
-a:hover {
-  background-color: #66bfbf;
-  color: #eaf6f6;
+  margin: 0% 4%;
 }
 
 .copyright {
   color: #eaf6f6;
   font-size: 1.5vw;
-  padding: 5% 0 0 0;
+  padding-top: 5%;
 }
 
 .btn {
@@ -154,12 +142,13 @@ a:hover {
   background-image: linear-gradient(to bottom, #11cdd4, #11999e);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
-  border-radius: 8px;
+  border-radius: 0.625vw;
   font-family: var(--basic-ff);
   color: #ffffff;
   font-size: 2vw;
-  padding: 10px 20px;
+  padding: 0.85vw 1.7vw;
   text-decoration: none;
+  margin: 2%;
 }
 
 .btn:hover {
@@ -169,7 +158,7 @@ a:hover {
   background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-  padding: 10px 20px;
+  padding: 0.85vw 1.7vw;
   text-decoration: none;
 }
 
