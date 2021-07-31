@@ -1,34 +1,37 @@
 :root{
-  --heading-color: #66bfbf;           /*h1, h2 color.*/
+  --heading-color: #66bfbf;             /*nav,h2,bottom color.*/
   --content-fs: 1.8vw;                  /*Content Font Size*/
   --basic-ff: "Montserrat", sans-serif; /*h2, h3 & other Font Family*/
   --icon-fs: 4vw;                       /*icon size*/
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 body {
+  width: 100%;
   color: #40514e;
   text-align: center;
-  margin: 0;
   font-family: 'Raleway', sans-serif;
   line-height: 2;
 }
 
-h1 {
-  font-size: 9vw; /*vw is for % according to vewport responsive 
-                    for mobile and pc*/
-                  /*100% = 1em = 16px. Use rem i.e. root em instead of em because
-                    em & % is relative to parent measures i.e. body is 2em.*/
-  margin: auto;
-  font-family: "Sacramento", cursive;
-  color: var(--heading-color);
-}
+/*vw is for % according to viewport responsive 
+  for mobile and pc*/
+/*1vw = 12.8px, 1vh = 6.09px for my chrome browser*/
+/*100% = 1em = 16px. Use rem i.e. root em instead of em because
+  em & % is relative to parent measures i.e. body is 2em.*/
 
 h2 {
   font-family: var(--basic-ff);
   font-size: 4vw;
   color: var(--heading-color);
   font-weight: normal;
-  padding-bottom: 0.8%;
+  margin-bottom: 2.75%;
 }
 
 h3 {
@@ -44,47 +47,94 @@ hr {
   margin: 6% auto;
 }
 
-.top-container {
+nav{
+  height: 7.81vw; /*100px, 16.42vh */
+  background-color: var(--heading-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#top-container {
   background-color: #e4f9f5;
+  height: 47.578vw; /*100vh*/
   position: relative;
-  padding-top: 4vw;
 }
 
-#first-h2{
-  margin-top: 0px;
+.logo{
+  width: 40%;
 }
 
-/* .top-cloud {
+.logo h1{
+  font-family: 'Acme', sans-serif;
+  font-size: 3vw;
+  letter-spacing: 0.2vw;
+  word-spacing: 1vw;
+  text-shadow: 0.15vw 0.15vw 0.15vw #ff0062;
+  color: #e4f9f5;
+}
+
+.menu{
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu a{
+  font-size: 1.35vw;
+  letter-spacing: 0.1vw;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #e4f9f5;
+  position: relative;
+}
+
+.menu a:before{
+  content: "";
   position: absolute;
-  right: 13%;
-  top: 40px;
-  width: 12%;
+  height: 0.18vw;
+  top: 90%;
+  width: 0%;
+  left: 0;
+  background-color: #ff0062;
+  transition: all 0.5s linear;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 12%;
-  width: 12%;
-} */
-
-.programmer{
-  width: 25%;
-  max-width: 100%;
-}
-
-.middle-container {
+.menu a:hover:before{
   width: 100%;
-  margin: 7% 0 10%;
+}
+
+nav + h2{
+  padding-top: 3%;
 }
 
 .PJ{
   width: 20%;
   max-width: 100%;
+  margin-top: 2.75%;
+}
+
+.middle-container {
+  width: 100%;
+  padding: 7% 0 10%;
+  /* height: 350vh; */
+}
+
+/* .profile{
+  height: 100vh;
+} */
+
+.programmer{
+  width: 25vw;
+  margin-bottom: 2.75%;
+  max-width: 100%;
 }
 
 .intro {
   width: 40%;
-  margin: auto;
+  margin: 0 auto;
   font-size: var(--content-fs);
 }
 
@@ -92,9 +142,13 @@ hr {
   overflow: auto;
 }
 
+/* #skills{
+  height: 100vh;
+} */
+
 .skill-row {
   width: 60%;
-  margin: 8% auto;
+  margin: 6% auto;
   text-align: left;
   size: 25%;
   font-size: var(--content-fs);
@@ -112,25 +166,18 @@ hr {
   margin-left: 30px;
 }
 
-.bottom-container {
-  background-color: #66bfbf;
-  padding: 6% 0 1%;
+/* #my-projects{
+  height: 50vh;
 }
+
+.contact-me{
+  height: 100vh;
+} */
 
 .contact-message {
   width: 40%;
   margin: 3% auto 3%;
   font-size: var(--content-fs);
-}
-
-a {
-  margin: 0% 4%;
-}
-
-.copyright {
-  color: #eaf6f6;
-  font-size: 1.5vw;
-  padding-top: 5%;
 }
 
 .btn {
@@ -148,7 +195,7 @@ a {
   font-size: 2vw;
   padding: 0.85vw 1.7vw;
   text-decoration: none;
-  margin: 2%;
+  margin: 0 2%;
 }
 
 .btn:hover {
@@ -160,6 +207,18 @@ a {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   padding: 0.85vw 1.7vw;
   text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 6% 0 1%;
+  /* height: 30vh; */
+}
+
+.bottom-container div{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .fa-envelope{
@@ -190,4 +249,10 @@ a {
 .fa-github{
   font-size: var(--icon-fs);
   color: #4078c0;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 1.5vw;
+  padding-top: 5%;
 }
