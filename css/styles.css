@@ -48,11 +48,13 @@ hr {
 }
 
 nav{
-  height: 7.81vw; /*100px, 16.42vh */
+  height: 7vw; /*89.6px, 14.28vh */
   background-color: var(--heading-color);
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: fixed;
+  width: 100%;
 }
 
 #top-container {
@@ -107,7 +109,7 @@ nav{
 }
 
 nav + h2{
-  padding-top: 3%;
+  padding-top: 11%;
 }
 
 .PJ{
